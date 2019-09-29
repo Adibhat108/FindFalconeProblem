@@ -6,7 +6,6 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ToasterComponent } from './toaster/toaster.component';
 import { HttpClientModule } from "@angular/common/http";
-import { FindFalconeService } from './find-falcone/find-falcone.service';
 import { RouterModule } from '@angular/router';
 import { FindFalconeComponent } from './find-falcone/find-falcone.component';
 
@@ -24,8 +23,7 @@ import { FindFalconeComponent } from './find-falcone/find-falcone.component';
     HttpClientModule,
     // RouterModule.forRoot(routes),
   ],
-  providers: [FindFalconeService,
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
